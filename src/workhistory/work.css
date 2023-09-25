@@ -1,0 +1,14 @@
+#workHist {
+    list-style: none;
+    text-align: left;
+}
+
+.jobtitle {
+    margin-bottom: 1px;
+}
+
+.jobdescription {
+    list-style: disc;
+    
+}
+
