@@ -1,0 +1,30 @@
+.listItem {
+    list-style-type: none;
+    display:flex;
+    margin-top: 5px;
+    position: relative;
+    border: solid 1px green;     
+    padding-right: 20px;
+    width: 75px;
+}
+
+.skillText {
+    cursor: pointer;
+}
+
+.description {
+    display:none;
+    z-index: 1;
+    border: solid, black, 5px;
+    padding: 10px;
+    background-color: rgba(62, 217, 5, 0.95);
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 11px;
+    text-align: left;
+    width: 275px;
+}
+
+.listItem:hover .description {
+    display: block;
+}

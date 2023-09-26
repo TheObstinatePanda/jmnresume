@@ -43,7 +43,7 @@ workHistData.forEach(({ position, dates, resp, company}) => {
     WorkHistory.addToHead(position, dates, resp, company);
 })
 
-WorkHistory.print()
+//WorkHistory.print()
 //console.log(WorkHistory);
 
 export default WorkHistory;

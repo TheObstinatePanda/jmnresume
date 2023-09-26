@@ -1,5 +1,7 @@
 import './App.css';
 import Work from './workhistory/Work'
+import Education from './education/education'
+import Skills from './skillslist/skills'
 
 function App() {
   return (
@@ -25,7 +27,8 @@ function App() {
         </nav>
         <div id="body" className="container">
           <div id="leftBody" className="container">
-            <p>left side</p>
+            <Education/>
+            <Skills/>
           </div>
           <div id="rightBody" className="container">
             <Work/>
