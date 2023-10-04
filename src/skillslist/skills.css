@@ -1,11 +1,13 @@
 .listItem {
+    margin: 0 auto;
+    padding-inline-start: 0;
     list-style-type: none;
     display:flex;
     margin-top: 5px;
     position: relative;
-    border: solid 1px green;     
-    padding-right: 20px;
-    width: 75px;
+    width: 70px;
+    color:rgb(223, 225, 171);
+    padding-bottom: 5px;
 }
 
 .skillText {
@@ -14,10 +16,11 @@
 
 .description {
     display:none;
-    z-index: 1;
-    border: solid, black, 5px;
+    z-index: 3;
+    border: solid, black, 50px;
     padding: 10px;
-    background-color: rgba(62, 217, 5, 0.95);
+    background-color: rgba(29, 2, 59, 0.85);
+    color: rgba(223, 225, 171, .85);
     position: absolute;
     margin-left: 25px;
     margin-top: 11px;

@@ -10,7 +10,7 @@ function Skills() {
 
     return (
         <>
-            <h3>SKILLS</h3>
+            <h3 className="h3Left">SKILLS</h3>
             <ul id="skillsList" >
                 {skillsArr.map((entry, index) => {
                     return (

@@ -1,12 +1,13 @@
 import React from "react";
 import edData from "./edData";
+import "./education.css"
 
 function Education() {
     const edArr = edData.toArray();
 
     return (
         <>
-            <h3>EDUCATION</h3>
+            <h3 className="h3Left">EDUCATION</h3>
             <ul id="schools">
                 {edArr
                     .filter((entry) => entry.type === "School")
@@ -15,7 +16,7 @@ function Education() {
                     ))}
             </ul>
             <br />
-            <h3>CERTIFICATIONS</h3>
+            <h3 className="h3Left">CERTIFICATIONS</h3>
             <ul id="certs">
                 {edArr
                     .filter((entry) => entry.type === "Cert")

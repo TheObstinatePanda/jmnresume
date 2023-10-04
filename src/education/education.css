@@ -1,0 +1,29 @@
+.h3Left {
+    color: rgb(124, 150, 43);
+    max-width: 1250px;;
+    letter-spacing: .3rem;
+    margin-top: 30px;
+    text-shadow: 2px 2px 1px rgba(29, 2, 59, 0.85)
+}
+
+#schools {
+    list-style: none;
+    text-align: right;
+    color: rgb(223, 225, 171);
+    margin-top: -12.5px;
+    padding-right: 25px;
+    margin-bottom: -30px;
+}
+
+#certs {
+    list-style: none;
+    text-align: right;
+    color: rgb(223, 225, 171);
+    margin-top: -12.5px;
+    padding-right: 25px;
+    margin-bottom: -10px;
+}
+
+#certs li {
+    padding-bottom: 5px;
+}
