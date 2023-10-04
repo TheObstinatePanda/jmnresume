@@ -33,4 +33,4 @@ class workNode {
     }
 }
 
-module.exports = workNode;
+export default workNode;
