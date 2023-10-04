@@ -122,4 +122,4 @@ class DLL {
     }
 }
 
-module.exports = DLL;
+export default DLL;
