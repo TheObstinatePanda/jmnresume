@@ -31,4 +31,4 @@ class skillsNode {
     }
 }
 
-export default skillsNode;
+module.exports = skillsNode;

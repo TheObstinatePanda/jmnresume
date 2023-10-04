@@ -31,4 +31,4 @@ class edNode {
     }
 }
 
-export default edNode;
+module.exports = edNode;
