@@ -5,7 +5,7 @@ export class skillsNode {
         this.next = null;
         this.prev = null;
     }
-
+//adding a note to get clear update on github
     setNextNode(node) {
         if (node instanceof skillsNode || node === null) {
             this.next = node;
