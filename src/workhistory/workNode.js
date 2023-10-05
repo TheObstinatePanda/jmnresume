@@ -1,4 +1,4 @@
-class workNode {
+export class workNode {
     constructor(jobTitle, details, dates, company) {
         this.jobTitle = jobTitle;
         this.details = details;
@@ -32,5 +32,3 @@ class workNode {
         return this.prev;
     }
 }
-
-module.exports = workNode;

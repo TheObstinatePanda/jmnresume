@@ -1,6 +1,6 @@
-const skillsList = require('./skillsList');
+import {DLL} from './skillsList';
 
-const skillsData = new skillsList();
+const skillsData = new DLL();
 
 const skills = [
     {

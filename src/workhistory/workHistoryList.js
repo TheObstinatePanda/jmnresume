@@ -1,6 +1,6 @@
-const workNode = require('./workNode');
+import {workNode} from './workNode'
 
-class DLL {
+export class DLL {
     constructor() {
         this.head = null;
         this.tail = null;
@@ -121,5 +121,3 @@ class DLL {
         console.log(output)
     }
 }
-
-module.exports = DLL;

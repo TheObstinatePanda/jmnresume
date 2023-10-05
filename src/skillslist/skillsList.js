@@ -1,6 +1,6 @@
-const skillsNode = require('./skillsNode');
+import {skillsNode} from './skillsNode';
 
-class DLL {
+export class DLL {
     constructor () {
         this.head = null;
         this.tail = null;
@@ -109,4 +109,3 @@ class DLL {
     }
 }
 
-module.exports = DLL;

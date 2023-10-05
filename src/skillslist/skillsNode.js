@@ -1,4 +1,4 @@
-class skillsNode {
+export class skillsNode {
     constructor(skill, skillDescription) {
         this.skill = skill;
         this.desc = skillDescription;
@@ -30,5 +30,3 @@ class skillsNode {
         return this.prev;
     }
 }
-
-module.exports = skillsNode;
