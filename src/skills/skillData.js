@@ -1,6 +1,6 @@
-import {DLL} from './skillsList';
+import skillDLL from './skillsList';
 
-const skillsData = new DLL();
+const skillsData = new skillDLL();
 
 const skills = [
     {
@@ -41,6 +41,6 @@ skills.forEach(({skill, skillDescription}) => {
     skillsData.addToTail(skill, skillDescription)
 })
 
-//skillsData.print();
+skillsData.print();
 
 export default skillsData;

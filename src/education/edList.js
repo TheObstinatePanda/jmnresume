@@ -1,6 +1,6 @@
-const edNode = require('./edNode');
+import edNode from './edNode';
 
-class DLL {
+class edDLL {
     constructor () {
         this.head = null;
         this.tail = null;
@@ -105,4 +105,4 @@ class DLL {
     }
 }
 
-module.exports = DLL;
+export default edDLL;

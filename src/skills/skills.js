@@ -1,5 +1,5 @@
 import {React, useState} from "react";
-import skillsData from "./skillsData"
+import skillsData from "./skillData"
 import './skills.css'
 
 function Skills() {

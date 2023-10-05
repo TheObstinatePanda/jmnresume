@@ -1,6 +1,6 @@
-const DLL = require('./workHistoryList')
+import jobsDLL from './workHistoryList';
 
-const WorkHistory = new DLL();
+const WorkHistory = new jobsDLL();
 
 const workHistData = [
     {

@@ -1,6 +1,6 @@
-const edList = require('./edList');
+import edDLL from './edList';
 
-const edData = new edList();
+const edData = new edDLL();
 
 const education = [
     {

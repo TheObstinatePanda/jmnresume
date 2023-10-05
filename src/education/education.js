@@ -1,6 +1,6 @@
 import React from "react";
 import edData from "./edData";
-import "./education.css"
+import './education.css'
 
 function Education() {
     const edArr = edData.toArray();
