@@ -1,4 +1,4 @@
-import {DLL} from './workHistoryList'
+const DLL = require('./workHistoryList')
 
 const WorkHistory = new DLL();
 

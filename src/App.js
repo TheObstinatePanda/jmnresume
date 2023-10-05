@@ -1,7 +1,7 @@
 import './App.css';
 import Work from './workhistory/Work'
 import Education from './education/education'
-import Skills from './skillslist/skills'
+import Skills from './skills/skillsList'
 
 function App() {
   return (
