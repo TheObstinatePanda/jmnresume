@@ -14,8 +14,7 @@ function Skills() {
             <ul id="skillsList" >
                 {skillsArr.map((entry, index) => {
                     return (
-                        <>
-                        
+                        <>                        
                         <li key={index} 
                             className="listItem"
                             onMouseEnter={onHover}

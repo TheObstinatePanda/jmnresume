@@ -28,21 +28,6 @@
   color: #61dafb;
 }
 
-nav {
-  margin-bottom: 3px;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-}
-
-li {
-  padding: 0 25px;
-}
-
 h1 {
   font-size: 6rem;
   letter-spacing: 30px;
@@ -74,11 +59,23 @@ h2 {
   display: flex;
   flex-direction: row;
 }
-#intro img {
+#profilepic {
   margin: 0 3.3rem 5px 7.5rem;
   border-radius: 50%;
   max-width: 100%;
   border: solid rgba(29, 2, 59, 0.5) 3.5px;
+}
+#textnav {
+
+}
+
+#buttons {
+  height: 50px;
+  padding-top: 55px;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+  margin-right: 5px;
 }
 
 #topinfo {
@@ -105,7 +102,7 @@ h2 {
   margin: 0;
   padding: 0;
   min-width: 30%;
-  border-bottom: solid rgba(2, 69, 2, 0.54) .5px;
+  border-bottom: solid rgba(2, 69, 2, 0.54);
   box-shadow: 0 5px 2.5px rgba(2, 69, 2, 0.14);
 }
 

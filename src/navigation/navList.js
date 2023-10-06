@@ -1,13 +1,13 @@
-import skillsNode from './skillsNode';
+import navNode from './navNode'
 
-class skillDLL {
+class navDLL {
     constructor () {
         this.head = null;
         this.tail = null;
     }
 
-    addToHead(skill, skillDescription) {
-        const newHead = new skillsNode(skill, skillDescription);
+    addToHead(title, url, preview) {
+        const newHead = new navNode(title, url, preview);
         const currentHead = this.head;
 
         if (currentHead) {
@@ -20,18 +20,18 @@ class skillDLL {
             this.tail = newHead;
         }
     }
-
-    addToTail(skill, skillDescription) {
-        const newTail = new skillsNode(skill, skillDescription);
+    
+    addToTail(title, url, preview) {
+        const newTail = new navNode(title, url, preview);
         const currentTail = this.tail;
 
-        if (currentTail) {
+        if(currentTail) {
             currentTail.setNextNode(newTail);
             newTail.setPrevNode(currentTail);
         }
 
         this.tail = newTail;
-        if (!this.head) {
+        if(!this.head) {
             this.head = newTail;
         }
     }
@@ -51,7 +51,7 @@ class skillDLL {
             this.removeTail();
         }
 
-        return removedHead.skill;
+        return removedHead.title;
     }
 
     removeTail() {
@@ -69,7 +69,7 @@ class skillDLL {
             this.removeHead();
         }
 
-        return removedTail.skill
+        return removedTail.title;
     }
 
     removeByData(data) {
@@ -77,7 +77,7 @@ class skillDLL {
         let currentNode = this.head;
 
         while (currentNode !== null) {
-            if (currentNode.skill === data) {
+            if (currentNode.title === data) {
                 nodeToRemove = currentNode;
                 break;
             }
@@ -86,7 +86,7 @@ class skillDLL {
 
         if (nodeToRemove === this.head) {
             this.removeHead();
-        } else  if (nodeToRemove === this.tail) {
+        } else if (nodeToRemove === this.tail) {
             this.removeTail();
         } else {
             const nextNode = nodeToRemove.getNextNode();
@@ -107,7 +107,7 @@ class skillDLL {
             current = current.next;
         }
 
-        return result;
+        return result
     }
 
     print() {
@@ -115,7 +115,7 @@ class skillDLL {
         let output = ``;
 
         while (currentNode !== null) {
-            output += `${currentNode.skill} ${currentNode.skillDescription}`
+            output += `${currentNode.title} ${currentNode.url} ${currentNode.preview}`
             currentNode = currentNode.next;
         }
 
@@ -123,4 +123,4 @@ class skillDLL {
     }
 }
 
-export default skillDLL;
+export default navDLL
