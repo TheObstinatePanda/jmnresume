@@ -1,5 +1,5 @@
 import './App.css';
-//import Navigation from './navigation/navigation'
+import Navigation from './navigation/navigation'
 import Work from './workhistory/Work'
 import Education from './education/education'
 import Skills from './skills/skills'
@@ -18,7 +18,7 @@ function App() {
           <div id="textnav">
             <p id="objective">To obtain a front end developer position where my creativity and problem-solving skills can be utilized to design user-friendly interfaces and drive business objectives.</p>
             <div id="buttons">
-              {/* <Navigation /> */}
+              <Navigation />
             </div>
           </div>
           
