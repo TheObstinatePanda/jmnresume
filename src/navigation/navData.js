@@ -6,17 +6,17 @@ const elements = [
     {
         title: "CSS Stylecard",
         url: "https://opstylecard.netlify.app/",
-        preview: "",
+        preview: require("../images/stylecard.PNG"),
     },
     {
-        title: "CSS Stylecard",
-        url: "https://opstylecard.netlify.app/",
-        preview: "",
+        title: "Artist Portfolio",
+        url: "https://thepandasden.netlify.app/",
+        preview: require("../images/artistportfolio.PNG"),
     },
     {
-        title: "CSS Stylecard",
-        url: "https://opstylecard.netlify.app/",
-        preview: "",
+        title: "GitHub",
+        url: "https://github.com/TheObstinatePanda",
+        preview: require("../images/githubportfolio.PNG"),
     },
 ]
 
@@ -24,6 +24,6 @@ elements.forEach(({title, url, preview}) => {
     navData.addToTail(title, url, preview)
 })
 
-navData.print();
+//navData.print();
 
 export default navData;

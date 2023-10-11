@@ -21,7 +21,6 @@ function App() {
               <Navigation />
             </div>
           </div>
-          
         </div>
         
         <div id="body" className="container">

@@ -15,9 +15,13 @@
 }
 
 .description {
-    display:none;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: opacity .45s ease, transform 0.35s ease;
     z-index: 3;
-    border: solid, black, 50px;
+    border: solid, black, 1px;
+    border-radius: 2.5%;
     padding: 10px;
     background-color: rgba(29, 2, 59, 0.85);
     color: rgba(223, 225, 171, .85);
@@ -29,5 +33,6 @@
 }
 
 .listItem:hover .description {
-    display: block;
+    opacity: 1;
+    transform: scaleX(1);
 }

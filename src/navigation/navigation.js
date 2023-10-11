@@ -4,7 +4,7 @@ import './navigation.css';
 
 function Navigation() {
     const navArr = navData.toArray();
-    console.log(navData.print());
+    //console.log(navData.print());
     const [display, setDisplay] = useState(false);
 
     function onHover () {setDisplay(!display)};
@@ -20,10 +20,10 @@ function Navigation() {
                                 className="navItem"
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}>
-                                    <a href={entry.url} className="link">
+                                    <a href={entry.url} className="link" target='_blank' rel='noreferrer no opener'>
                                         {entry.title}                     
                                     </a>
-                                    <img src={require('../images/stylecard.PNG')} className="navImg" alt="preview tile for project"/>
+                                    <img src={entry.preview} className="navImg" alt="preview tile for project"/>
                                 </li>
                         </>
                     )
