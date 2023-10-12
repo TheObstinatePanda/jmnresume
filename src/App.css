@@ -228,52 +228,75 @@ h2 {
 }
 
 @media only screen and (max-width: 675px) {
+  html {
+    max-width: 100%;
+  }
+
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 3px;
     padding-right: 15%;
     padding-left: 15%;
+    padding-top: 10%;
     margin-right:0;
   }
   h2{
-    font-size: 1.35rem;
+    font-size: 1rem;
     padding-left: 25%;
     padding-right: 25%;
-    margin-bottom: 25px;
+    margin-bottom: -15px;
   }
   h3{
-    font-size: .85rem;
+    font-size: 16px;
   }
+  p {
+    font-size: 16px;
+  }
+  body {
+    max-width: 675px;
+  }
+  
   #intro.container {
-    height: 100px;
+    height: auto;
+    width: 550px;
     display: flex;
     flex-direction: row;
   }
   #profilepic{
     display:none;
-    align-self: flex-end;
-    max-width:75%;
-    height: 75%;
-    border: solid rgba(29, 2, 59, 0.5) 2.5px;
+  }
+  #textnav {
+    height: 200px;
+    width: 400px;
+    justify-content: center;
   }
   #objective{
-    padding: 20px 5% 0px 5%;;
+    margin: 0px;
+    height: 130px;
+    max-width: 500px;
+    text-align: center;
   }
   #buttons {
-    padding-right: 25px;
+    padding-right: 0px;
+    height: auto;
+    margin: 0px;
   }
   #body {
     flex-direction: column-reverse;
     border-radius: 0;
     align-content: flex-end;
     height: auto;
+    overflow-x: hidden;
   }
   #leftBody {
+    display: flex;
     min-width:25%;
     border-radius: 0%;
-    flex-direction: row;
+    flex-direction: column;
   }
   #rightBody{
     padding-right: 50px;
+    height: 400px;
+    overflow: auto;
   }
 }

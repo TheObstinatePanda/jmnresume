@@ -25,7 +25,7 @@ function App() {
         
         <div id="body" className="container">
           <div id="leftBody" className="container">
-            <h3 className="h3Left">Contact</h3>
+            <h3 className="h3Left">CONTACT</h3>
             <a href="https://www.linkedin.com/in/jason-newman-982441179/" className="contact">
               <img src={require('./images/linkedin_3536505.png')} id='linkedin' alt="LinkedIn's logo"/>
               <p>LinkedIn</p>

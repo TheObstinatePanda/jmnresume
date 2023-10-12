@@ -36,3 +36,22 @@
     opacity: 1;
     transform: scaleX(1);
 }
+
+@media only screen and (max-width: 675px) {
+    #skillsList {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 100px;
+        align-content: space-evenly;
+    }    
+    .listItem {
+        flex: 1;
+        max-width: calc(50% - 5px);
+        margin-top: 0px;
+    }
+    .listItem:hover .description {
+        opacity: 0;
+    }
+    
+}
