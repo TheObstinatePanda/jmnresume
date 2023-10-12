@@ -228,9 +228,7 @@ h2 {
 }
 
 @media only screen and (max-width: 675px) {
-  html {
-    max-width: 100%;
-  }
+
 
   h1 {
     font-size: 2rem;
@@ -252,13 +250,10 @@ h2 {
   p {
     font-size: 16px;
   }
-  body {
-    max-width: 675px;
-  }
   
   #intro.container {
     height: auto;
-    width: 550px;
+    max-width: 550px;
     display: flex;
     flex-direction: row;
   }
@@ -271,15 +266,15 @@ h2 {
     justify-content: center;
   }
   #objective{
-    margin: 0px;
+    margin: 0 auto;
+    padding: 0;
     height: 130px;
-    max-width: 500px;
-    text-align: center;
+    width: 70%;
   }
   #buttons {
     padding-right: 0px;
     height: auto;
-    margin: 0px;
+    margin: 0 auto;
   }
   #body {
     flex-direction: column-reverse;
