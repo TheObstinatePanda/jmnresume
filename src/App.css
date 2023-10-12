@@ -60,7 +60,7 @@ h2 {
 #textnav {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #topinfo {
@@ -165,7 +165,7 @@ h2 {
   }
   #profilepic{
     display:flex;
-    align-self: end;
+    align-self: flex-end;
     max-width:85%;
     height: 85%;
     border: solid rgba(29, 2, 59, 0.5) 2.5px;
@@ -200,7 +200,7 @@ h2 {
   }
   #profilepic{
     display:none;
-    align-self: end;
+    align-self: flex-end;
     max-width:75%;
     height: 75%;
     border: solid rgba(29, 2, 59, 0.5) 2.5px;
@@ -214,7 +214,7 @@ h2 {
   #body {
     flex-direction: column-reverse;
     border-radius: 0;
-    align-content: end;
+    align-content: flex-end;
     height: auto;
   }
   #leftBody {
@@ -251,7 +251,7 @@ h2 {
   }
   #profilepic{
     display:none;
-    align-self: end;
+    align-self: flex-end;
     max-width:75%;
     height: 75%;
     border: solid rgba(29, 2, 59, 0.5) 2.5px;
@@ -265,7 +265,7 @@ h2 {
   #body {
     flex-direction: column-reverse;
     border-radius: 0;
-    align-content: end;
+    align-content: flex-end;
     height: auto;
   }
   #leftBody {
